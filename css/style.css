@@ -1,0 +1,244 @@
+body{
+	font-size: 15px/1.5 Arial, Helvetica,sans-serif; 
+	margin:0;
+	background-color: #f4f4f4;
+	padding: 70px 70px 70px 70px;
+}
+
+/* Main Class*/
+.menu{
+     width: 80%;
+     margin: auto;
+	overflow: hidden;
+}
+
+header ul{
+	margin: 0;
+	padding: 0;
+	
+}
+
+header{
+	background:url('../img/sol.jpeg');
+	background-size: 1200px;
+	color:  #ffffff;
+	padding: 16px;
+	min-height: 50px;
+	border: #e8491d 2px solid;
+}
+
+header a{
+	color:  #ffffff;
+	text-decoration: none;
+	font-size: 30px;
+}
+
+header li{
+ 	float: left;
+ 	display: inline;
+ 	padding: 0 10px 0 10px;
+}
+
+ header #brand{
+	text-align: center;
+	background-color:#052a66 ; 
+}
+
+header #brand{
+	margin: 10px ;
+}
+
+header #image{
+	float: left;
+	margin-bottom: 20px;
+	padding: 0px;
+    border: #e8491d 2px dashed;
+    
+}
+
+header nav{
+	float: left;
+	margin: 10px;
+}
+
+header .highlight {
+    color: #e8491d;
+	font-weight: bold;
+}
+
+header nav{
+	float: right;
+	margin: 10px;
+	padding-top: 60px;
+}
+
+  header a:hover{
+	color: #d6d20a;
+	font-weight: bold;
+}
+
+/* Project*/
+#project{
+	color: #ffffff;
+	background-color: #0d6860;
+	border: #e8491d 2px solid;
+	padding: 20px;
+	font-size: 18px;
+} 
+
+#project ul{
+	list-style-type:none; 
+}
+
+#project .sub{
+	float: left;
+	padding: 20px;
+	text-align: center;
+	margin-left: 28px;
+}
+  
+#project .sub:hover{
+	color: #e8491d;
+	font-weight: bold;
+} 
+
+#project .sub #game{
+	border: #e8491d 1px solid;
+	padding:8px;
+	background-color: #326d68;
+}
+
+#project .sub #web{
+	border: #e8491d 1px solid;
+	padding:8px;
+	background-color: #326d68;
+}
+
+#project .sub #base{
+	border: #e8491d 1px solid;
+	padding:8px;
+	background-color: #326d68;
+}
+
+/* Id project class more*/
+#project .more{
+	float: left;
+	padding: 20px;
+	text-align: center;
+    margin-left: 28px;
+}
+
+#project  h1{
+	text-align: center;
+	color: #e8491d ;
+	text-transform: uppercase;
+	background-color:#ffffff; 
+  
+}
+
+ #project .more:hover{
+	color: #e8491d;
+	font-weight: bold;
+}  
+
+#project .more #other{
+	border: #e8491d 1px solid;
+	padding:10px;
+	background-color: #326d68;
+}
+
+#project .more #this{
+	border: #e8491d 1px solid;
+	padding:10px;
+	background-color: #326d68;
+}
+
+#project .more #last{
+	border: #e8491d 1px solid;
+	padding:10px;
+	background-color: #326d68;
+}
+
+/*Work Experience*/
+#work{
+	padding: 20px;
+	color: #ffffff;
+    background-color: #35424a;
+	border: #e8491d 2px solid;
+	font-size: 18px;
+
+} 
+
+#work .experience:hover{
+	color: #e03b00;
+	font-weight: bold;
+}  
+
+#work h1{
+	text-align: center;
+	color: #e8491d ;
+	text-transform: uppercase;
+	background-color:#ffffff; 
+}
+
+#work .experience{
+		float: left; 
+		padding: 20px;
+		text-align: center;
+		margin-left: 40px;
+}
+
+#work .experience #bank{
+	border: #e8491d 1px solid;
+	padding: 10px;
+	background-color: #821b29;
+}
+
+#work .experience #aim{
+	border: #e8491d 1px solid;
+	padding: 10px;
+	background-color: #821b29;
+}
+
+#work .experience #air{
+    border: #e8491d 1px solid;
+	padding: 10px;
+	background-color: #821b29;
+}
+/* puting a responsiveness for website to fit on different devices*/
+@media screen and (max-width:360px){
+
+	.menu{
+		width:100%;
+	    margin: auto;
+	}
+	#project{
+		width: 100%;
+		padding: 0;
+
+	}
+
+	#work{
+		width:100%;
+		padding: 0;
+	}
+}
+
+@media screen and (max-width:900px){
+
+	.menu{
+		width:100%;
+	    margin: auto;
+	}
+	#project{
+		width: 100%;
+		padding: 0;
+
+	}
+
+	#work{
+		width:100%;
+		padding: 0;
+	}
+}
+
